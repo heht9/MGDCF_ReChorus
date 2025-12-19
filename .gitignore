@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IPython/Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Dataset files (大文件不上传)
+data/**/*.pkl
+data/**/*.pt
+data/**/*.npy
+data/**/*.npz
+data/**/*.csv  # 如果很大
+data/**/*.gz
+
+# Logs and models
+log/*
+model/*
+
+# Jupyter Notebook
+*.ipynb  # 如果文件很大，可以考虑不上传
+
+# PyTorch checkpoint
+*.pth
+*.pt
+
+# Temp files
+*.tmp
+*.temp
+*.log
+
+# Windows
+desktop.ini
