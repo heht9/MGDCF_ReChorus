@@ -16,12 +16,13 @@ MGDCF通过应用马尔科夫图神经网络（MGDN）和 InfoBPR 损失函数�
 ```
 python == 3.10.4
 torch == 2.5.0
-numpy == 1.24.3 
-pandas == 1.5.3
-scipy == 1.10.1
-scikit-learn == 1.3.0
-tqdm == 4.65.0
-pyyaml == 6.0.0 
+pandas == 1.4.4
+scipy == 1.15.3
+tqdm == 4.67.1
+scikit-learn
+pyyaml
+numpy
+
 ```
 ## training
 使用 GPU 训练：将 --gpu -1 改为 --gpu 0（使用第一个GPU）
